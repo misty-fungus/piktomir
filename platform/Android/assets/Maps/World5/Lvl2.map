@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map width="17" height="12" layers="1" worldtype="0" tileset="0">
+    <graph>
+        <layer>
+            wQJRAlECUQJRAlECUQJRAlECUQJRAlECUQJRAlECUQKRAqECwQLRAtEC0QLRAtEC0QLRAtEC0QLRAtEC0QLRApECoQKhAuEC8QLxAvEC8QLxAvEC8QLxAvEC8QLxAvEC8QKxAqECoQLhAvEC8QLxAvEC8QLxAvEC8QLxAvEC8QLxAvECsQKhAqEC4QLxAvEC8QLxAvEC8QLxAvEC8QLxAvEC8QLxArECoQKhAuEC8QLxAvEC8QLxAvEC8QTxAvEC8QLxAvEC8QKxAqECoQLhAvEC8QLxAvEC8QLxBPEE8QTxAvEC8QLxAvECsQKhAqEC4QLxAvEC8QLxAvEE8QTxBPEE8QTxAvEC8QLxArECoQKhAuEC8QLxAvEC8QTxBPEE8QTxBPEE8QTxAvEC8QKxAqECoQLhAvEC8QLxBPEE8QTxBPEE8QTxBPEE8QTxAvECsQKhAqECYQJxAnEFcQVxBXEFcQVxBXEFcQVxBXEFcQVxAjECoQJhAlECUQJRAlECUQJRAlECUQJRAlECUQJRAlECUQJRAjECAA==
+        </layer>
+	</graph>
+    <robots>
+		<robot x="4" y="10" layer="0" state="2" type="0" baserobot="yes">
+            <functions resizable="0" count="3">
+                <func name="main" repeat="0" condition="0" isRepeat="1" isCondition="1" width="4" lockwidth="0" maxwidth="4" height="3" lockheight="0" maxheight="3" hide="0" count="0"><function>000000000000</function>
+                    <background>111111111111</background>
+                </func>
+                <func name="Command 1" repeat="0" condition="0" isRepeat="1" isCondition="1" width="5" lockwidth="0" maxwidth="5" height="2" lockheight="0" maxheight="2" hide="0" count="0"><function>0000000000</function>
+                    <background>1111111111</background>
+                </func>
+                <func name="Command 2" repeat="0" condition="0" isRepeat="1" isCondition="1" width="1" lockwidth="0" maxwidth="1" height="1" lockheight="0" maxheight="1" hide="0" count="0"><function>0</function>
+                    <background>1</background>
+                </func>
+            </functions>
+			<tasks>
+				<paint count="0" />
+			</tasks>	
+		</robot>
+	</robots>
+	<hints count="2">
+		<hint target = "main">
+			<func type="text">1.<function></function>
+                    <background></background>
+                </func>
+		</hint>
+		<hint target  = "Command 1">
+			<func type="text">2.<function></function>
+                    <background></background>
+                </func>
+		</hint>
+	</hints>
+</map>

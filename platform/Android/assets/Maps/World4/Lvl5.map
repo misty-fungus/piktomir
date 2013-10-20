@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map width="17" height="12" layers="1" worldtype="0" tileset="0">
+    <graph>
+        <layer>
+            wQJRAlECUQJRAlECUQJRAlECUQJRAlECUQJRAlECUQKRAqECwQLRAtEC0QLRAtEC0QLRAtEC0QLRAtEC0QLRApECoQKhAuEC8QLxAvEC8QLxA3EDcQNxA/ED8QLxAvEC8QKxAqECoQLhAvEC8QLxAvEDMQPBBFEEkQRhA/ED8QLxAvECsQKhAqEC4QLxAvEC8QMxA8EEMQSBA2EEkQRhA/ED8QLxArECoQKhAuEC8QLxAzEDwQQxBMED8QORA2EEkQRhA/ED8QKxAqECoQLhAvEDMQPBBDEEwQPxA/ED8QORA2EEkQRhA/EDsQKhAqEC4QMxA8EEMQTBA/ED8QPxA/ED8QORA2EEkQRhA7EDoQKhAiEDwQQxBMED8QPxA/ED8QPxA/ED8QORA2EEkQQhA6ECoQLBBDEEwQPxA/ED8QPxA/ED8QPxA/ED8QORA2EEkQShAqECIQRBA3EDcQNxA3EDcQNxA3EDcQNxA3EDcQMRAyEEoQJhAlECUQJRAlECUQJRAlECUQJRAlECUQJRAlECUQJRAjECAA==
+        </layer>
+	</graph>
+    <robots>
+		<robot x="1" y="10" layer="0" state="2" type="0" baserobot="yes">
+            <functions resizable="0" count="2">
+                <func name="main" repeat="0" condition="0" isRepeat="0" isCondition="0" width="4" lockwidth="0" maxwidth="4" height="1" lockheight="0" maxheight="1" hide="0" count="0"><function>A2A4</function>
+                    <background>1111</background>
+                </func>
+                <func name="Command 1" repeat="7" condition="3" isRepeat="1" isCondition="1" width="3" lockwidth="0" maxwidth="3" height="2" lockheight="0" maxheight="2" hide="0" count="0"><function>000000</function>
+                    <background>111111</background>
+                </func>
+            </functions>
+			<tasks>
+				<paint count="0" />
+			</tasks>	
+		</robot>
+	</robots>
+	<hints />
+</map>

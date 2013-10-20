@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map width="16" height="15" layers="1" worldtype="0" tileset="0">
+    <graph>
+        <layer>
+            wQJRAlECUQJRAlECUQJRAlECUQJRAlECUQJRAlECkQKhAsEC0QLRAtEC0QLRAtEC0QLRAtEC0QLRAtECkQKhAqEC4QLxAnECcQJxAnECcQJxAnECcQJxAnEC8QKxAqECoQLhArECwQNRA1EDUQNRA1EDUQNRA1EDkQPhArECoQKhAuECsQKhA8EC0QLRAtEC0QLRAtECkQKhA+ECsQKhAqEC4QKxAqED4QLxAnECcQJxAnEC8QKxAqED4QKxAqECoQLhArECoQPhArECwQNRA1EDkQPhArECoQPhArECoQKhAuECsQKhA+ECsQKhA8ECkQKhA+ECsQKhA+ECsQKhAqEC4QKxAqED4QKxAqED4QKxAiEE4QKxAqED4QKxAqECoQLhArECoQPhArECoQPhAvEC0QLxArECoQPhArECoQKhAuECsQKhA+ECsQKhA2ECcQJxAnECMQKhA+ECsQKhAqEC4QKxAqED4QKxAmEDUQNRA1EDUQNRAzED4QKxAqECoQLhAvEC8QLxAvEC0QLRAtEC0QLRAtEC0QLxArECoQKhAmECcQJxAnECcQJxAnECcQJxAnECcQJxAnECMQKhAmECUQJRAlECUQJRAlECUQJRAlECUQJRAlECUQJRAjECAA==
+        </layer>
+	</graph>
+    <robots>
+		<robot x="3" y="11" layer="0" state="2" type="0" baserobot="yes">
+            <functions resizable="0" count="3">
+                <func name="main" repeat="0" condition="0" isRepeat="0" isCondition="0" width="2" lockwidth="0" maxwidth="2" height="1" lockheight="0" maxheight="1" hide="0" count="0"><function>00</function>
+                    <background>11</background>
+                </func>
+                <func name="Command 1" repeat="0" condition="0" isRepeat="1" isCondition="1" width="2" lockwidth="0" maxwidth="2" height="1" lockheight="0" maxheight="1" hide="0" count="0"><function>00</function>
+                    <background>11</background>
+                </func>
+                <func name="Command 2" repeat="0" condition="0" isRepeat="0" isCondition="1" width="1" lockwidth="0" maxwidth="1" height="1" lockheight="0" maxheight="1" hide="0" count="0"><function>0</function>
+                    <background>1</background>
+                </func>
+            </functions>
+			<tasks>
+				<paint count="0" />
+			</tasks>	
+		</robot>
+	</robots>
+	<hints />
+</map>

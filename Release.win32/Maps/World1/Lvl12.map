@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map width="12" height="12" layers="1" worldtype="0" tileset="0">
+    <graph>
+        <layer>
+            wQJRAlECUQJRAlECUQJRAlECUQJRApECoQLBAtEC0QJRAtEC0QJRAtEC0QKRAqECoQLhAvECsQKBBOECsQKBBOEC8QKxAqECoQLhAnECMQKhBGECMQKhBGECcQKxAqECoQKhAkEEUQTxBFEEUQTxBFEEEQShAqECoQLhAtECkQKhBMECkQKhBMEC0QKxAqECoQLhAnECMQKhBGECMQKhBGECcQKxAqECoQKhAkEEUQTxBFEEUQTxBFEEEQShAqECoQLhAtECkQKhBMECkQKhBMEC0QKxAqECoQLhAvECsQIhBOECsQIhBOEC8QKxAqECoQJhAnECcQJRAnECcQJRAnECcQIxAqECYQJRAlECUQJRAlECUQJRAlECUQJRAjECAA==
+        </layer>
+	</graph>
+    <robots>
+		<robot x="4" y="4" layer="0" state="0" type="0" baserobot="yes">
+            <functions resizable="0" count="2">
+                <func name="main" repeat="0" condition="0" isRepeat="1" isCondition="0" width="3" lockwidth="0" maxwidth="3" height="2" lockheight="0" maxheight="2" hide="0" count="0"><function>000000</function>
+                    <background>111111</background>
+                </func>
+                <func name="Command 1" repeat="0" condition="0" isRepeat="1" isCondition="0" width="3" lockwidth="0" maxwidth="3" height="3" lockheight="0" maxheight="3" hide="0" count="0"><function>000000000</function>
+                    <background>111111111</background>
+                </func>
+            </functions>
+			<tasks>
+				<paint count="0" />
+			</tasks>	
+		</robot>
+	</robots>
+	<hints />
+</map>

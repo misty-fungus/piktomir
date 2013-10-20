@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{f0e4ffd3-c432-4731-8cff-db986d34e895}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{235b0ba8-d321-416c-85be-cbc0477c9a8b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{19b03b36-d9b4-48b2-b4a7-06e462423101}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="source\Localizations">
+      <UniqueIdentifier>{c0975f6d-5c74-44e7-a29b-bb8da084713f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Xml">
+      <UniqueIdentifier>{29dba8e0-d20d-4f9f-9c14-32e9e99e03ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\FTP">
+      <UniqueIdentifier>{a0bad1b5-eac5-48eb-b5ed-477716488cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\NetEngine">
+      <UniqueIdentifier>{fee4c63c-7c9e-49ec-a715-dc285ce036cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\GameClasses">
+      <UniqueIdentifier>{e8129456-043b-4d08-9ab5-40403c3ee98a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Map">
+      <UniqueIdentifier>{3e453575-cd7a-4945-9ca5-407bf912e874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Layers">
+      <UniqueIdentifier>{2f8a44b0-a13f-4a85-a323-80c19b26951d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Layers\Menu Layers">
+      <UniqueIdentifier>{81465153-e058-43b3-9c4b-88e56daa6f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Layers\STatus Layers">
+      <UniqueIdentifier>{6b03f138-45fd-4785-b1db-fc8065bd7a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Buttons">
+      <UniqueIdentifier>{764c92ab-9597-46a1-b5ee-4144bb690fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Robot">
+      <UniqueIdentifier>{e8577485-7790-49a1-9b49-4c38f553d72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\World">
+      <UniqueIdentifier>{63277ed6-2651-42a2-9fcf-dfc65d1c6bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\SquareWorld">
+      <UniqueIdentifier>{dacb74f2-d108-4b70-af87-f88124447972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utils">
+      <UniqueIdentifier>{05ee1efc-3b42-4c4e-b63c-e55dcef984b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\AppDelegate.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\AppMacros.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\CCLocalizedString.h">
+      <Filter>source\Localizations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\XmlWorldReader.h">
+      <Filter>source\Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\XmlWorldSaver.h">
+      <Filter>source\Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\FTPuser.h">
+      <Filter>source\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\FTPutils.h">
+      <Filter>source\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\NetEngine.h">
+      <Filter>source\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\Hint.h">
+      <Filter>source\GameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\Hints.h">
+      <Filter>source\GameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\PMTextureCache.h">
+      <Filter>source\GameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\GameParams.h">
+      <Filter>source\GameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\Map.h">
+      <Filter>source\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\MapContainer.h">
+      <Filter>source\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\MainMenuLayer.h">
+      <Filter>source\Layers\Menu Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\ChangeLevelMenu.h">
+      <Filter>source\Layers\Menu Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\SelectMenuLayer.h">
+      <Filter>source\Layers\Menu Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\SettingsMenuLayer.h">
+      <Filter>source\Layers\Menu Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\SelectMapMenuLayer.h">
+      <Filter>source\Layers\Menu Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\RobotLooseLayer.h">
+      <Filter>source\Layers\STatus Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\RobotWinLayer.h">
+      <Filter>source\Layers\STatus Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\HintLayer.h">
+      <Filter>source\Layers\STatus Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\SpeedBarLayer.h">
+      <Filter>source\Layers\STatus Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\ProgramControlLayer.h">
+      <Filter>source\Layers\STatus Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\ScrollLayer.h">
+      <Filter>source\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\MethodScrollLayer.h">
+      <Filter>source\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\MethodStackLayer.h">
+      <Filter>source\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\GameLayer.h">
+      <Filter>source\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\ProgramLayer.h">
+      <Filter>source\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\MethodLayer.h">
+      <Filter>source\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\MapElement.h">
+      <Filter>source\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\SelectButton.h">
+      <Filter>source\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\RobotManager.h">
+      <Filter>source\Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\RobotMethod.h">
+      <Filter>source\Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\PlayerRobot.h">
+      <Filter>source\Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\PlayerRobot2D.h">
+      <Filter>source\Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\EnvRobot2D.h">
+      <Filter>source\Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\UniversalRobot.h">
+      <Filter>source\Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\UniversalWorld.h">
+      <Filter>source\World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\Map4.h">
+      <Filter>source\SquareWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\Oven4.h">
+      <Filter>source\SquareWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\ControlLayer4.h">
+      <Filter>source\SquareWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\EnvRobot.h">
+      <Filter>source\Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\Robot4.h">
+      <Filter>source\SquareWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\Task.h">
+      <Filter>source\GameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\TransportRobot4.h">
+      <Filter>source\SquareWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\PauseLayer.h">
+      <Filter>source\Layers\STatus Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\World4.h">
+      <Filter>source\SquareWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\utils.h">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\PMMapPreview.h">
+      <Filter>source\Layers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\CCLocalizedString.cpp">
+      <Filter>source\Localizations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\XmlWorldReader.cpp">
+      <Filter>source\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\XmlWorldSaver.cpp">
+      <Filter>source\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\FTPuser.cpp">
+      <Filter>source\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\FTPutils.cpp">
+      <Filter>source\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\NetEngine.cpp">
+      <Filter>source\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\Hint.cpp">
+      <Filter>source\GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\Hints.cpp">
+      <Filter>source\GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\PMTextureCache.cpp">
+      <Filter>source\GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\GameParams.cpp">
+      <Filter>source\GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\Map.cpp">
+      <Filter>source\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\MapContainer.cpp">
+      <Filter>source\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\MainMenuLayer.cpp">
+      <Filter>source\Layers\Menu Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\ChangeLevelMenu.cpp">
+      <Filter>source\Layers\Menu Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\SelectMenuLayer.cpp">
+      <Filter>source\Layers\Menu Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\SettingsMenuLayer.cpp">
+      <Filter>source\Layers\Menu Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\SelectMapMenuLayer.cpp">
+      <Filter>source\Layers\Menu Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\RobotLooseLayer.cpp">
+      <Filter>source\Layers\STatus Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\RobotWinLayer.cpp">
+      <Filter>source\Layers\STatus Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\HintLayer.cpp">
+      <Filter>source\Layers\STatus Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\SpeedBarLayer.cpp">
+      <Filter>source\Layers\STatus Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\ProgramControlLayer.cpp">
+      <Filter>source\Layers\STatus Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\ScrollLayer.cpp">
+      <Filter>source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\MethodScrollLayer.cpp">
+      <Filter>source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\MethodStackLayer.cpp">
+      <Filter>source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\GameLayer.cpp">
+      <Filter>source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\ProgramLayer.cpp">
+      <Filter>source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\MethodLayer.cpp">
+      <Filter>source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\MapElement.cpp">
+      <Filter>source\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\SelectButton.cpp">
+      <Filter>source\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\RobotManager.cpp">
+      <Filter>source\Robot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\RobotMethod.cpp">
+      <Filter>source\Robot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\UniversalWorld.cpp">
+      <Filter>source\World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\Map4.cpp">
+      <Filter>source\SquareWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\Oven4.cpp">
+      <Filter>source\SquareWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\Task.cpp">
+      <Filter>source\GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\ControlLayer4.cpp">
+      <Filter>source\SquareWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\TransportRobot4.cpp">
+      <Filter>source\SquareWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\Robot4.cpp">
+      <Filter>source\SquareWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\PauseLayer.cpp">
+      <Filter>source\Layers\STatus Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\World4.cpp">
+      <Filter>source\SquareWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\utils.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\PMMapPreview.cpp">
+      <Filter>source\Layers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="pictomir-cocos2d-x.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

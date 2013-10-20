@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VSVersion)' == '' and '$(VisualStudioVersion)' == ''">$(VCTargetsPath11)</VCTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DF46F05D-D782-4DFC-8737-D26B9C80A4CE}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <TargetName>Piktomir</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>Piktomir</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\..\Classes;$(SolutionDir)libs\cocos2dx;$(SolutionDir)libs\cocos2dx\include;$(SolutionDir)libs\cocos2dx\kazmath\include;$(SolutionDir)libs\cocos2dx\platform\win32;$(SolutionDir)libs\cocos2dx\platform\third_party\win32;$(SolutionDir)libs\cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)libs\CocosDenshion\include;$(SolutionDir)libs\cocos2dx\platform\third_party\win32\iconv;$(SolutionDir)libs\cocos2dx\platform\third_party\win32\libtiff;$(SolutionDir)libs\cocos2dx\platform\third_party\win32\pthread;$(SolutionDir)libs\cocos2dx\platform\third_party\win32\zlib;$(SolutionDir)libs\cocos2dx\platform\third_party\win32\libxml2\;$(SolutionDir)libs\extensions;$(SolutionDir)libs\CocosDension;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4305;4018;4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Debug.win32\libcocos2d.lib;opengl32.lib;Debug.win32\glew32.lib;Debug.win32\libxml2.lib;Debug.win32\libzlib.lib;Debug.win32\libCocosDenshion.lib;Debug.win32\libExtensions.lib;Debug.win32\libcurl_imp.lib;Debug.win32\libwebp.lib;Debug.win32\pthreadVCE2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>pictomir-cocos2d-x.h</HeaderFileName>
+      <InterfaceIdentifierFileName>pictomir-cocos2d-x_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>pictomir-cocos2d-x_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/pictomir-cocos2d-x.tlb</TypeLibraryName>
+      <DllDataFileName />
+    </Midl>
+    <PostBuildEvent>
+      <Command>xcopy /Y /E ..\..\Resources\*.* $(OutDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\..\Classes;$(SolutionDir)libs\cocos2dx;$(SolutionDir)libs\cocos2dx\include;$(SolutionDir)libs\cocos2dx\kazmath\include;$(SolutionDir)libs\cocos2dx\platform\win32;$(SolutionDir)libs\cocos2dx\platform\third_party\win32;$(SolutionDir)libs\cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)libs\CocosDenshion\include;$(SolutionDir)libs\cocos2dx\platform\third_party\win32\libxml2;$(SolutionDir)libs\cocos2dx\platform\third_party\win32\iconv;$(SolutionDir)libs\cocos2dx\platform\third_party\win32\zlib;$(SolutionDir)libs\cocos2dx\platform\third_party\win32\pthread;$(SolutionDir)libs\extensions;$(SolutionDir)libs\CocosDenshion;$(SolutionDir)libs\cocos2dx\platform\third_party\win32\libtiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling />
+      <DebugInformationFormat />
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGSNDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4350;4305;4018;4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Release.win32\libcocos2d.lib;opengl32.lib;Release.win32\glew32.lib;Release.win32\libxml2.lib;Release.win32\libzlib.lib;Release.win32\libCocosDenshion.lib;Release.win32\libExtensions.lib;Release.win32\pthreadVCE2.lib;Release.win32\libwebp.lib;Release.win32\libcurl_imp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>pictomir-cocos2d-x.h</HeaderFileName>
+      <InterfaceIdentifierFileName>pictomir-cocos2d-x_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>pictomir-cocos2d-x_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/pictomir-cocos2d-x.tlb</TypeLibraryName>
+      <DllDataFileName />
+    </Midl>
+    <PostBuildEvent>
+      <Command>xcopy /Y /E ..\..\Resources\*.* $(OutDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\..\Classes\AppMacros.h" />
+    <ClInclude Include="..\..\Classes\CCLocalizedString.h" />
+    <ClInclude Include="..\..\Classes\ChangeLevelMenu.h" />
+    <ClInclude Include="..\..\Classes\ControlLayer4.h" />
+    <ClInclude Include="..\..\Classes\EnvRobot.h" />
+    <ClInclude Include="..\..\Classes\EnvRobot2D.h" />
+    <ClInclude Include="..\..\Classes\FTPuser.h" />
+    <ClInclude Include="..\..\Classes\FTPutils.h" />
+    <ClInclude Include="..\..\Classes\GameLayer.h" />
+    <ClInclude Include="..\..\Classes\GameParams.h" />
+    <ClInclude Include="..\..\Classes\Hint.h" />
+    <ClInclude Include="..\..\Classes\HintLayer.h" />
+    <ClInclude Include="..\..\Classes\Hints.h" />
+    <ClInclude Include="..\..\Classes\MainMenuLayer.h" />
+    <ClInclude Include="..\..\Classes\Map.h" />
+    <ClInclude Include="..\..\Classes\Map4.h" />
+    <ClInclude Include="..\..\Classes\MapContainer.h" />
+    <ClInclude Include="..\..\Classes\MapElement.h" />
+    <ClInclude Include="..\..\Classes\MethodLayer.h" />
+    <ClInclude Include="..\..\Classes\MethodScrollLayer.h" />
+    <ClInclude Include="..\..\Classes\MethodStackLayer.h" />
+    <ClInclude Include="..\..\Classes\NetEngine.h" />
+    <ClInclude Include="..\..\Classes\Oven4.h" />
+    <ClInclude Include="..\..\Classes\PauseLayer.h" />
+    <ClInclude Include="..\..\Classes\PlayerRobot.h" />
+    <ClInclude Include="..\..\Classes\PlayerRobot2D.h" />
+    <ClInclude Include="..\..\Classes\PMMapPreview.h" />
+    <ClInclude Include="..\..\Classes\PMTextureCache.h" />
+    <ClInclude Include="..\..\Classes\ProgramControlLayer.h" />
+    <ClInclude Include="..\..\Classes\ProgramLayer.h" />
+    <ClInclude Include="..\..\Classes\Robot4.h" />
+    <ClInclude Include="..\..\Classes\RobotLooseLayer.h" />
+    <ClInclude Include="..\..\Classes\RobotManager.h" />
+    <ClInclude Include="..\..\Classes\RobotMethod.h" />
+    <ClInclude Include="..\..\Classes\RobotWinLayer.h" />
+    <ClInclude Include="..\..\Classes\ScrollLayer.h" />
+    <ClInclude Include="..\..\Classes\SelectButton.h" />
+    <ClInclude Include="..\..\Classes\SelectMapMenuLayer.h" />
+    <ClInclude Include="..\..\Classes\SelectMenuLayer.h" />
+    <ClInclude Include="..\..\Classes\SettingsMenuLayer.h" />
+    <ClInclude Include="..\..\Classes\SpeedBarLayer.h" />
+    <ClInclude Include="..\..\Classes\Task.h" />
+    <ClInclude Include="..\..\Classes\TransportRobot4.h" />
+    <ClInclude Include="..\..\Classes\UniversalRobot.h" />
+    <ClInclude Include="..\..\Classes\UniversalWorld.h" />
+    <ClInclude Include="..\..\Classes\utils.h" />
+    <ClInclude Include="..\..\Classes\World4.h" />
+    <ClInclude Include="..\..\Classes\XmlWorldReader.h" />
+    <ClInclude Include="..\..\Classes\XmlWorldSaver.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\..\Classes\CCLocalizedString.cpp" />
+    <ClCompile Include="..\..\Classes\ChangeLevelMenu.cpp" />
+    <ClCompile Include="..\..\Classes\ControlLayer4.cpp" />
+    <ClCompile Include="..\..\Classes\FTPuser.cpp" />
+    <ClCompile Include="..\..\Classes\FTPutils.cpp" />
+    <ClCompile Include="..\..\Classes\GameLayer.cpp" />
+    <ClCompile Include="..\..\Classes\GameParams.cpp" />
+    <ClCompile Include="..\..\Classes\Hint.cpp" />
+    <ClCompile Include="..\..\Classes\HintLayer.cpp" />
+    <ClCompile Include="..\..\Classes\Hints.cpp" />
+    <ClCompile Include="..\..\Classes\MainMenuLayer.cpp" />
+    <ClCompile Include="..\..\Classes\Map.cpp" />
+    <ClCompile Include="..\..\Classes\Map4.cpp" />
+    <ClCompile Include="..\..\Classes\MapContainer.cpp" />
+    <ClCompile Include="..\..\Classes\MapElement.cpp" />
+    <ClCompile Include="..\..\Classes\MethodLayer.cpp" />
+    <ClCompile Include="..\..\Classes\MethodScrollLayer.cpp" />
+    <ClCompile Include="..\..\Classes\MethodStackLayer.cpp" />
+    <ClCompile Include="..\..\Classes\NetEngine.cpp" />
+    <ClCompile Include="..\..\Classes\Oven4.cpp" />
+    <ClCompile Include="..\..\Classes\PauseLayer.cpp" />
+    <ClCompile Include="..\..\Classes\PMMapPreview.cpp" />
+    <ClCompile Include="..\..\Classes\PMTextureCache.cpp" />
+    <ClCompile Include="..\..\Classes\ProgramControlLayer.cpp" />
+    <ClCompile Include="..\..\Classes\ProgramLayer.cpp" />
+    <ClCompile Include="..\..\Classes\Robot4.cpp" />
+    <ClCompile Include="..\..\Classes\RobotLooseLayer.cpp" />
+    <ClCompile Include="..\..\Classes\RobotManager.cpp" />
+    <ClCompile Include="..\..\Classes\RobotMethod.cpp" />
+    <ClCompile Include="..\..\Classes\RobotWinLayer.cpp" />
+    <ClCompile Include="..\..\Classes\ScrollLayer.cpp" />
+    <ClCompile Include="..\..\Classes\SelectButton.cpp" />
+    <ClCompile Include="..\..\Classes\SelectMapMenuLayer.cpp" />
+    <ClCompile Include="..\..\Classes\SelectMenuLayer.cpp" />
+    <ClCompile Include="..\..\Classes\SettingsMenuLayer.cpp" />
+    <ClCompile Include="..\..\Classes\SpeedBarLayer.cpp" />
+    <ClCompile Include="..\..\Classes\Task.cpp" />
+    <ClCompile Include="..\..\Classes\TransportRobot4.cpp" />
+    <ClCompile Include="..\..\Classes\UniversalWorld.cpp" />
+    <ClCompile Include="..\..\Classes\utils.cpp" />
+    <ClCompile Include="..\..\Classes\World4.cpp" />
+    <ClCompile Include="..\..\Classes\XmlWorldReader.cpp" />
+    <ClCompile Include="..\..\Classes\XmlWorldSaver.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="pictomir-cocos2d-x.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

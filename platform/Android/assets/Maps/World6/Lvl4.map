@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<map width="10" height="5" layers="1" worldtype="0" tileset="0">
+    <graph>
+        <layer>
+            wQNRA1EDUQNRA1EDUQNRA1EDkQOhA8ECUQJRAhECQQJRAlECkQKhA6EDoQJBBFEEUQRRBFEEEQShAqEDoQNhAlECUQIRAkECUQJRAjECoQNhA1EDUQNRA1EDUQNRA1EDUQMxA2Q=
+        </layer>
+    </graph>
+    <robots>
+        <robot x="2" y="2" layer="0" state="0" type="0" baserobot="yes">
+            <functions resizable="0">
+                <func name="main" repeat="0" condition="0" isRepeat="0" isCondition="0" width="2" lockwidth="0" maxwidth="2" height="6" lockheight="0" maxheight="6" hide="0" count="12"><function>143434343434</function>
+                    <background>111111111111</background>
+                </func>
+            </functions>
+            <tasks>
+                <paint count="6" />
+            </tasks>
+        </robot>
+    </robots>
+    <hints />
+</map>

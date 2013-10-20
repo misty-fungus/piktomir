@@ -1,0 +1,35 @@
+NewGame = "New Game";
+ContinueGame = "Continue Game";
+NewNetGame = "New Net Game";
+JoinNetGame = "Join Net game";
+SelectLevel = "Select Level";
+Exit = "Exit";
+
+ContinueLevel = "Continue";
+MainMenu = "Main menu";
+BackToMainMenu = "Back to main menu";
+BackToWorldSelect = "Back to game select";
+Settings = "Settings";
+
+Sound  = "Sound";
+BackgroundVolume  = "Music: ";
+EffectVolume  = "Effects: ";
+Language = "Language";
+
+LevelDone = "Level done";
+RobotBroken = "Robot broken";
+
+MainProgram = "Main program";
+SubProgram = "Subprogram";
+
+//Patterns
+WorldPattern = "Game %d";
+WorldAndLevelPattern  = "Game %d\nTask %d of %d";
+StepCountPattern3 = "Robot made %d commands";
+StepCountPattern2 = "Robot made %d commands";
+StepCountPattern1 = "Robot made %d commands";
+
+GivenText = "Given: ";
+DoText = "Result: ";
+
+//the last line must have a blank line when I test this example

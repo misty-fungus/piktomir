@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map width="9" height="9" layers="1" worldtype="0" tileset="0">
+    <graph>
+        <layer>
+            wQJRAlECUQJRAlECUQJRApECoQKBBEED0QPRA9ED0QORA6ECoQJhBJEEYQPxA/ED8QOxA6ECoQKBA2EEkQRhA/ED8QOxA6ECoQLhA5EDYQSRBGED8QOxA6ECoQLhA/EDkQNhBJEEYQOxA6ECoQLhA/ED8QORA2EEkQQhA6ECoQJhA3EDcQNxAxEDYQQRBKECYQJRAlECUQJRAlECUQJRAjECAA==
+        </layer>
+	</graph>
+    <robots>
+		<robot x="1" y="1" layer="0" state="0" type="0" baserobot="yes">
+            <functions resizable="0" count="2">
+                <func name="main" repeat="0" condition="0" isRepeat="0" isCondition="0" width="1" lockwidth="0" maxwidth="1" height="7" count="0" hide="0"><function>5555554</function>
+                    <background>1111111</background>
+                </func>
+                <func name="Command 1" repeat="0" condition="0" isRepeat="0" isCondition="0" width="3" lockwidth="0" maxwidth="3" height="2" lockheight="0" maxheight="2" hide="0" count="0"><function>000000</function>
+                    <background>111111</background>
+                </func>
+            </functions>
+			<tasks>
+				<paint count="0" />
+			</tasks>	
+		</robot>
+	</robots>
+	<hints />
+</map>

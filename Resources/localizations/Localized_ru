@@ -1,0 +1,34 @@
+NewGame = "Новая Игра";
+ContinueGame = "Продолжить игру";
+NewNetGame = "Новая сетевая игра";
+JoinNetGame = "Присоединиться к сетевой игре";
+SelectLevel = "Выбрать уровень";
+Exit = "Выход";
+
+ContinueLevel = "Продолжить";
+MainMenu = "Главное меню";
+BackToMainMenu = "Назад в главное меню";
+BackToWorldSelect = "Назад к выбору игры";
+Settings = "Настройки";
+
+Sound  = "Звук";
+BackgroundVolume  = "Музыка: ";
+EffectVolume  = "Эффекты: ";
+Language = "Язык";
+
+LevelDone = "Уровень пройден";
+RobotBroken = "Робот сломан";
+
+MainProgram = "Главная программа";
+SubProgram = "Подпрограмма";
+
+//Patterns
+WorldPattern = "Игра %d";
+WorldAndLevelPattern  = "Игра %d\nЗадание %d из %d";
+StepCountPattern3 = "Робот выполнил %d команд";
+StepCountPattern2 = "Робот выполнил %d команды";
+StepCountPattern1 = "Робот выполнил %d команду";
+
+GivenText = "Дано: ";
+DoText = "Получаем: ";
+//  1

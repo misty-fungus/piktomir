@@ -1,0 +1,389 @@
+﻿Построение начато 21.08.2013 9:39:03.
+     1>Проект "D:\Work\VS_Projects\pictomir\Piktomir\platform\Windows\pictomir-cocos2d-x.win32.vcxproj" в узле 2 (целевые объекты Build).
+     1>Link:
+         pictomir-cocos2d-x.win32.vcxproj -> D:\Work\VS_Projects\pictomir\Piktomir\Release.win32\Piktomir.exe
+       PostBuildEvent:
+         xcopy /Y /E ..\..\Resources\*.* D:\Work\VS_Projects\pictomir\Piktomir\Release.win32\
+         :VCEnd
+         ..\..\Resources\new.map
+         ..\..\Resources\Icons\Icon-72.png
+         ..\..\Resources\Icons\Icon-Small-50.png
+         ..\..\Resources\Icons\Icon-Small.png
+         ..\..\Resources\Icons\Icon-Small@2x.png
+         ..\..\Resources\Icons\icon.icns
+         ..\..\Resources\Icons\Icon.png
+         ..\..\Resources\Icons\Icon@2x.png
+         ..\..\Resources\localizations\Localized_en
+         ..\..\Resources\localizations\Localized_ru
+         ..\..\Resources\Maps\Worlds.xml
+         ..\..\Resources\Maps\World0\Lvl1.map
+         ..\..\Resources\Maps\World0\Lvl10.map
+         ..\..\Resources\Maps\World0\Lvl11.map
+         ..\..\Resources\Maps\World0\Lvl12.map
+         ..\..\Resources\Maps\World0\Lvl13.map
+         ..\..\Resources\Maps\World0\Lvl2.map
+         ..\..\Resources\Maps\World0\Lvl3.map
+         ..\..\Resources\Maps\World0\Lvl4.map
+         ..\..\Resources\Maps\World0\Lvl5.map
+         ..\..\Resources\Maps\World0\Lvl6.map
+         ..\..\Resources\Maps\World0\Lvl7.map
+         ..\..\Resources\Maps\World0\Lvl8.map
+         ..\..\Resources\Maps\World0\Lvl9.map
+         ..\..\Resources\Maps\World1\Lvl1.map
+         ..\..\Resources\Maps\World1\Lvl10.map
+         ..\..\Resources\Maps\World1\Lvl11.map
+         ..\..\Resources\Maps\World1\Lvl12.map
+         ..\..\Resources\Maps\World1\Lvl2.map
+         ..\..\Resources\Maps\World1\Lvl3.map
+         ..\..\Resources\Maps\World1\Lvl4.map
+         ..\..\Resources\Maps\World1\Lvl5.map
+         ..\..\Resources\Maps\World1\Lvl6.map
+         ..\..\Resources\Maps\World1\Lvl7.map
+         ..\..\Resources\Maps\World1\Lvl8.map
+         ..\..\Resources\Maps\World1\Lvl9.map
+         ..\..\Resources\Maps\World2\Lvl1.map
+         ..\..\Resources\Maps\World2\Lvl2.map
+         ..\..\Resources\Maps\World2\Lvl3.map
+         ..\..\Resources\Maps\World2\Lvl4.map
+         ..\..\Resources\Maps\World2\Lvl5.map
+         ..\..\Resources\Maps\World2\Lvl6.map
+         ..\..\Resources\Maps\World2\Lvl7.map
+         ..\..\Resources\Maps\World3\Lvl1.map
+         ..\..\Resources\Maps\World3\Lvl10.map
+         ..\..\Resources\Maps\World3\Lvl11.map
+         ..\..\Resources\Maps\World3\Lvl12.map
+         ..\..\Resources\Maps\World3\Lvl2.map
+         ..\..\Resources\Maps\World3\Lvl3.map
+         ..\..\Resources\Maps\World3\Lvl4.map
+         ..\..\Resources\Maps\World3\Lvl5.map
+         ..\..\Resources\Maps\World3\Lvl6.map
+         ..\..\Resources\Maps\World3\Lvl7.map
+         ..\..\Resources\Maps\World3\Lvl8.map
+         ..\..\Resources\Maps\World3\Lvl9.map
+         ..\..\Resources\Maps\World4\Lvl1.map
+         ..\..\Resources\Maps\World4\Lvl2.map
+         ..\..\Resources\Maps\World4\Lvl3.map
+         ..\..\Resources\Maps\World4\Lvl4.map
+         ..\..\Resources\Maps\World4\Lvl5.map
+         ..\..\Resources\Maps\World4\Lvl6.map
+         ..\..\Resources\Maps\World4\Lvl7.map
+         ..\..\Resources\Maps\World4\Lvl8.map
+         ..\..\Resources\Maps\World5\Lvl1.map
+         ..\..\Resources\Maps\World5\Lvl2.map
+         ..\..\Resources\Maps\World6\Lvl1.map
+         ..\..\Resources\Maps\World6\Lvl2.map
+         ..\..\Resources\Maps\World6\Lvl3.map
+         ..\..\Resources\Maps\World6\Lvl4.map
+         ..\..\Resources\Maps\World6\Lvl5.map
+         ..\..\Resources\Picts\Background\background1.png
+         ..\..\Resources\Picts\Background\background2.png
+         ..\..\Resources\Picts\Conditions\cond.png
+         ..\..\Resources\Picts\Conditions\cond1.png
+         ..\..\Resources\Picts\Conditions\cond1_Disabled.png
+         ..\..\Resources\Picts\Conditions\cond1_Selected.png
+         ..\..\Resources\Picts\Conditions\cond2.png
+         ..\..\Resources\Picts\Conditions\cond2_Disabled.png
+         ..\..\Resources\Picts\Conditions\cond2_Selected.png
+         ..\..\Resources\Picts\Conditions\cond3.png
+         ..\..\Resources\Picts\Conditions\cond3_Disabled.png
+         ..\..\Resources\Picts\Conditions\cond3_Selected.png
+         ..\..\Resources\Picts\Conditions\cond4.png
+         ..\..\Resources\Picts\Conditions\cond4_Disabled.png
+         ..\..\Resources\Picts\Conditions\cond4_Selected.png
+         ..\..\Resources\Picts\Conditions\cond_Disabled.png
+         ..\..\Resources\Picts\Conditions\cond_Selected.png
+         ..\..\Resources\Picts\Languages\russian_flag.png
+         ..\..\Resources\Picts\Languages\russian_flag_Selected.png
+         ..\..\Resources\Picts\Languages\usa_flag.png
+         ..\..\Resources\Picts\Languages\usa_flag_Selected.png
+         ..\..\Resources\Picts\MapsPics\Active.png
+         ..\..\Resources\Picts\MapsPics\Active_Disabled.png
+         ..\..\Resources\Picts\MapsPics\No.png
+         ..\..\Resources\Picts\MapsPics\No_Disabled.png
+         ..\..\Resources\Picts\MapsPics\world4_tileset0.png
+         ..\..\Resources\Picts\MapsPics\world4_tileset0_Disabled.png
+         ..\..\Resources\Picts\MapsPics\world4_tileset0_Edit.png
+         ..\..\Resources\Picts\Repeaters\rep.png
+         ..\..\Resources\Picts\Repeaters\rep1.png
+         ..\..\Resources\Picts\Repeaters\rep1_Disabled.png
+         ..\..\Resources\Picts\Repeaters\rep1_Selected.png
+         ..\..\Resources\Picts\Repeaters\rep2.png
+         ..\..\Resources\Picts\Repeaters\rep2_Disabled.png
+         ..\..\Resources\Picts\Repeaters\rep2_Selected.png
+         ..\..\Resources\Picts\Repeaters\rep3.png
+         ..\..\Resources\Picts\Repeaters\rep3_Disabled.png
+         ..\..\Resources\Picts\Repeaters\rep3_Selected.png
+         ..\..\Resources\Picts\Repeaters\rep4.png
+         ..\..\Resources\Picts\Repeaters\rep4_Disabled.png
+         ..\..\Resources\Picts\Repeaters\rep4_Selected.png
+         ..\..\Resources\Picts\Repeaters\rep5.png
+         ..\..\Resources\Picts\Repeaters\rep5_Disabled.png
+         ..\..\Resources\Picts\Repeaters\rep5_Selected.png
+         ..\..\Resources\Picts\Repeaters\rep6.png
+         ..\..\Resources\Picts\Repeaters\rep6_Disabled.png
+         ..\..\Resources\Picts\Repeaters\rep6_Selected.png
+         ..\..\Resources\Picts\Repeaters\rep7.png
+         ..\..\Resources\Picts\Repeaters\rep7_Disabled.png
+         ..\..\Resources\Picts\Repeaters\rep7_Selected.png
+         ..\..\Resources\Picts\Repeaters\rep_Disabled.png
+         ..\..\Resources\Picts\Repeaters\rep_Selected.png
+         ..\..\Resources\Picts\Robot\oven4.png
+         ..\..\Resources\Picts\Robot\robot4-animations.plist
+         ..\..\Resources\Picts\Robot\robot4-broken.plist
+         ..\..\Resources\Picts\Robot\robot4-broken.png
+         ..\..\Resources\Picts\Robot\robot4-paint.plist
+         ..\..\Resources\Picts\Robot\robot4-paint.png
+         ..\..\Resources\Picts\Robot\robot4.plist
+         ..\..\Resources\Picts\Robot\robot4.png
+         ..\..\Resources\Picts\Robot Methods\A.png
+         ..\..\Resources\Picts\Robot Methods\A_Disabled.png
+         ..\..\Resources\Picts\Robot Methods\A_Selected.png
+         ..\..\Resources\Picts\Robot Methods\B.png
+         ..\..\Resources\Picts\Robot Methods\B_Disabled.png
+         ..\..\Resources\Picts\Robot Methods\B_Selected.png
+         ..\..\Resources\Picts\Robot Methods\C.png
+         ..\..\Resources\Picts\Robot Methods\C_Disabled.png
+         ..\..\Resources\Picts\Robot Methods\C_Selected.png
+         ..\..\Resources\Picts\Robot Methods\empty_method.png
+         ..\..\Resources\Picts\Robot Methods\forward.png
+         ..\..\Resources\Picts\Robot Methods\forward_Disabled.png
+         ..\..\Resources\Picts\Robot Methods\forward_Selected.png
+         ..\..\Resources\Picts\Robot Methods\left.png
+         ..\..\Resources\Picts\Robot Methods\left_Disabled.png
+         ..\..\Resources\Picts\Robot Methods\left_Selected.png
+         ..\..\Resources\Picts\Robot Methods\paint.png
+         ..\..\Resources\Picts\Robot Methods\paint_Disabled.png
+         ..\..\Resources\Picts\Robot Methods\paint_Selected.png
+         ..\..\Resources\Picts\Robot Methods\right.png
+         ..\..\Resources\Picts\Robot Methods\right_Disabled.png
+         ..\..\Resources\Picts\Robot Methods\right_Selected.png
+         ..\..\Resources\Picts\System\%%.png
+         ..\..\Resources\Picts\System\%.png
+         ..\..\Resources\Picts\System\+.png
+         ..\..\Resources\Picts\System\-.png
+         ..\..\Resources\Picts\System\actionBackground.png
+         ..\..\Resources\Picts\System\actionBackground_Broken.png
+         ..\..\Resources\Picts\System\actionBackground_Disabled.png
+         ..\..\Resources\Picts\System\actionBackground_Selected.png
+         ..\..\Resources\Picts\System\checked.png
+         ..\..\Resources\Picts\System\ClearIcon.png
+         ..\..\Resources\Picts\System\ClearIcon_Disabled.png
+         ..\..\Resources\Picts\System\ClearIcon_Selected.png
+         ..\..\Resources\Picts\System\ComboboxCenter.png
+         ..\..\Resources\Picts\System\ComboboxLeft.png
+         ..\..\Resources\Picts\System\ComboboxRight.png
+         ..\..\Resources\Picts\System\DeleteIcon.png
+         ..\..\Resources\Picts\System\DeleteIcon_Disabled.png
+         ..\..\Resources\Picts\System\DeleteIcon_Selected.png
+         ..\..\Resources\Picts\System\down.png
+         ..\..\Resources\Picts\System\edit.png
+         ..\..\Resources\Picts\System\EditIcon.png
+         ..\..\Resources\Picts\System\EditIcon_Disabled.png
+         ..\..\Resources\Picts\System\EditIcon_Selected.png
+         ..\..\Resources\Picts\System\edit_select.png
+         ..\..\Resources\Picts\System\HideIcon.png
+         ..\..\Resources\Picts\System\HideIcon_Disabled.png
+         ..\..\Resources\Picts\System\HideIcon_Selected.png
+         ..\..\Resources\Picts\System\info.png
+         ..\..\Resources\Picts\System\InfoIcon.png
+         ..\..\Resources\Picts\System\InfoIcon_Disabled.png
+         ..\..\Resources\Picts\System\InfoIcon_Selected.png
+         ..\..\Resources\Picts\System\lock.png
+         ..\..\Resources\Picts\System\MakeStepIcon.png
+         ..\..\Resources\Picts\System\MakeStepIcon_Disabled.png
+         ..\..\Resources\Picts\System\MakeStepIcon_Selected.png
+         ..\..\Resources\Picts\System\NextLevelIcon.png
+         ..\..\Resources\Picts\System\NextLevelIcon_Disabled.png
+         ..\..\Resources\Picts\System\NextLevelIcon_Selected.png
+         ..\..\Resources\Picts\System\PasteIcon.png
+         ..\..\Resources\Picts\System\PasteIcon_Disabled.png
+         ..\..\Resources\Picts\System\PasteIcon_Selected.png
+         ..\..\Resources\Picts\System\PauseIcon.png
+         ..\..\Resources\Picts\System\PauseIcon_Disabled.png
+         ..\..\Resources\Picts\System\PauseIcon_Selected.png
+         ..\..\Resources\Picts\System\PlayIcon.png
+         ..\..\Resources\Picts\System\Preview.png
+         ..\..\Resources\Picts\System\PrevLevelIcon.png
+         ..\..\Resources\Picts\System\PrevLevelIcon_Disabled.png
+         ..\..\Resources\Picts\System\PrevLevelIcon_Selected.png
+         ..\..\Resources\Picts\System\ResetIcon.png
+         ..\..\Resources\Picts\System\ResetIcon_Disabled.png
+         ..\..\Resources\Picts\System\ResetIcon_Selected.png
+         ..\..\Resources\Picts\System\SaveHintIcon.png
+         ..\..\Resources\Picts\System\SaveHintIcon_Disabled.png
+         ..\..\Resources\Picts\System\SaveHintIcon_Selected.png
+         ..\..\Resources\Picts\System\scalesprite.png
+         ..\..\Resources\Picts\System\ShowIcon.png
+         ..\..\Resources\Picts\System\ShowIcon_Disabled.png
+         ..\..\Resources\Picts\System\ShowIcon_Selected.png
+         ..\..\Resources\Picts\System\sliderProgress.png
+         ..\..\Resources\Picts\System\sliderThumb.png
+         ..\..\Resources\Picts\System\sliderTrack.png
+         ..\..\Resources\Picts\System\SoundOffIcon.png
+         ..\..\Resources\Picts\System\SoundOffIcon_Disabled.png
+         ..\..\Resources\Picts\System\SoundOffIcon_Selected.png
+         ..\..\Resources\Picts\System\SoundOnIcon.png
+         ..\..\Resources\Picts\System\SoundOnIcon_Disabled.png
+         ..\..\Resources\Picts\System\SoundOnIcon_Selected.png
+         ..\..\Resources\Picts\System\speedBar.png
+         ..\..\Resources\Picts\System\speedBar_Empty.png
+         ..\..\Resources\Picts\System\start.png
+         ..\..\Resources\Picts\System\StartIcon.png
+         ..\..\Resources\Picts\System\StartIcon_Disabled.png
+         ..\..\Resources\Picts\System\StartIcon_Selected.png
+         ..\..\Resources\Picts\System\start_selected.png
+         ..\..\Resources\Picts\System\StopIcon.png
+         ..\..\Resources\Picts\System\StopIcon_Disabled.png
+         ..\..\Resources\Picts\System\StopIcon_Selected.png
+         ..\..\Resources\Picts\System\unchecked.png
+         ..\..\Resources\Picts\System\Unlock.png
+         ..\..\Resources\Picts\System\up.png
+         ..\..\Resources\Picts-hd\Background\background1.png
+         ..\..\Resources\Picts-hd\Background\background2.png
+         ..\..\Resources\Picts-hd\Conditions\cond.png
+         ..\..\Resources\Picts-hd\Conditions\cond0.png
+         ..\..\Resources\Picts-hd\Conditions\cond0_Disabled.png
+         ..\..\Resources\Picts-hd\Conditions\cond0_Selected.png
+         ..\..\Resources\Picts-hd\Conditions\cond1.png
+         ..\..\Resources\Picts-hd\Conditions\cond1_Disabled.png
+         ..\..\Resources\Picts-hd\Conditions\cond1_Selected.png
+         ..\..\Resources\Picts-hd\Conditions\cond2.png
+         ..\..\Resources\Picts-hd\Conditions\cond2_Disabled.png
+         ..\..\Resources\Picts-hd\Conditions\cond2_Selected.png
+         ..\..\Resources\Picts-hd\Conditions\cond3.png
+         ..\..\Resources\Picts-hd\Conditions\cond3_Disabled.png
+         ..\..\Resources\Picts-hd\Conditions\cond3_Selected.png
+         ..\..\Resources\Picts-hd\Conditions\cond4.png
+         ..\..\Resources\Picts-hd\Conditions\cond4_Disabled.png
+         ..\..\Resources\Picts-hd\Conditions\cond4_Selected.png
+         ..\..\Resources\Picts-hd\Conditions\cond_Disabled.png
+         ..\..\Resources\Picts-hd\Conditions\cond_Selected.png
+         ..\..\Resources\Picts-hd\Languages\russian_flag.png
+         ..\..\Resources\Picts-hd\Languages\russian_flag_Selected.png
+         ..\..\Resources\Picts-hd\Languages\usa_flag.png
+         ..\..\Resources\Picts-hd\Languages\usa_flag_Selected.png
+         ..\..\Resources\Picts-hd\MapsPics\action_tileset.png
+         ..\..\Resources\Picts-hd\MapsPics\world4_tileset0.png
+         ..\..\Resources\Picts-hd\Repeaters\rep.png
+         ..\..\Resources\Picts-hd\Repeaters\rep1.png
+         ..\..\Resources\Picts-hd\Repeaters\rep1_Disabled.png
+         ..\..\Resources\Picts-hd\Repeaters\rep1_Selected.png
+         ..\..\Resources\Picts-hd\Repeaters\rep2.png
+         ..\..\Resources\Picts-hd\Repeaters\rep2_Disabled.png
+         ..\..\Resources\Picts-hd\Repeaters\rep2_Selected.png
+         ..\..\Resources\Picts-hd\Repeaters\rep3.png
+         ..\..\Resources\Picts-hd\Repeaters\rep3_Disabled.png
+         ..\..\Resources\Picts-hd\Repeaters\rep3_Selected.png
+         ..\..\Resources\Picts-hd\Repeaters\rep4.png
+         ..\..\Resources\Picts-hd\Repeaters\rep4_Disabled.png
+         ..\..\Resources\Picts-hd\Repeaters\rep4_Selected.png
+         ..\..\Resources\Picts-hd\Repeaters\rep5.png
+         ..\..\Resources\Picts-hd\Repeaters\rep5_Disabled.png
+         ..\..\Resources\Picts-hd\Repeaters\rep5_Selected.png
+         ..\..\Resources\Picts-hd\Repeaters\rep6.png
+         ..\..\Resources\Picts-hd\Repeaters\rep6_Disabled.png
+         ..\..\Resources\Picts-hd\Repeaters\rep6_Selected.png
+         ..\..\Resources\Picts-hd\Repeaters\rep7.png
+         ..\..\Resources\Picts-hd\Repeaters\rep7_Disabled.png
+         ..\..\Resources\Picts-hd\Repeaters\rep7_Selected.png
+         ..\..\Resources\Picts-hd\Repeaters\rep_Disabled.png
+         ..\..\Resources\Picts-hd\Repeaters\rep_Selected.png
+         ..\..\Resources\Picts-hd\Robot\oven4.png
+         ..\..\Resources\Picts-hd\Robot\robot4-animations.plist
+         ..\..\Resources\Picts-hd\Robot\robot4.plist
+         ..\..\Resources\Picts-hd\Robot\robot4.png
+         ..\..\Resources\Picts-hd\Robot Methods\A.png
+         ..\..\Resources\Picts-hd\Robot Methods\A_Disabled.png
+         ..\..\Resources\Picts-hd\Robot Methods\A_Selected.png
+         ..\..\Resources\Picts-hd\Robot Methods\B.png
+         ..\..\Resources\Picts-hd\Robot Methods\B_Disabled.png
+         ..\..\Resources\Picts-hd\Robot Methods\B_Selected.png
+         ..\..\Resources\Picts-hd\Robot Methods\C.png
+         ..\..\Resources\Picts-hd\Robot Methods\C_Disabled.png
+         ..\..\Resources\Picts-hd\Robot Methods\C_Selected.png
+         ..\..\Resources\Picts-hd\Robot Methods\empty_method.png
+         ..\..\Resources\Picts-hd\Robot Methods\forward.png
+         ..\..\Resources\Picts-hd\Robot Methods\forward_Disabled.png
+         ..\..\Resources\Picts-hd\Robot Methods\forward_Selected.png
+         ..\..\Resources\Picts-hd\Robot Methods\left.png
+         ..\..\Resources\Picts-hd\Robot Methods\left_Disabled.png
+         ..\..\Resources\Picts-hd\Robot Methods\left_Selected.png
+         ..\..\Resources\Picts-hd\Robot Methods\paint.png
+         ..\..\Resources\Picts-hd\Robot Methods\paint_Disabled.png
+         ..\..\Resources\Picts-hd\Robot Methods\paint_Selected.png
+         ..\..\Resources\Picts-hd\Robot Methods\right.png
+         ..\..\Resources\Picts-hd\Robot Methods\right_Disabled.png
+         ..\..\Resources\Picts-hd\Robot Methods\right_Selected.png
+         ..\..\Resources\Picts-hd\System\%%.png
+         ..\..\Resources\Picts-hd\System\%.png
+         ..\..\Resources\Picts-hd\System\+.png
+         ..\..\Resources\Picts-hd\System\-.png
+         ..\..\Resources\Picts-hd\System\actionBackground.png
+         ..\..\Resources\Picts-hd\System\actionBackground_Broken.png
+         ..\..\Resources\Picts-hd\System\actionBackground_Disabled.png
+         ..\..\Resources\Picts-hd\System\actionBackground_Selected.png
+         ..\..\Resources\Picts-hd\System\ClearIcon.png
+         ..\..\Resources\Picts-hd\System\ClearIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\ClearIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\DeleteIcon.png
+         ..\..\Resources\Picts-hd\System\DeleteIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\DeleteIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\EditIcon.png
+         ..\..\Resources\Picts-hd\System\EditIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\EditIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\HideIcon.png
+         ..\..\Resources\Picts-hd\System\HideIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\HideIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\InfoIcon.png
+         ..\..\Resources\Picts-hd\System\InfoIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\InfoIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\lock.png
+         ..\..\Resources\Picts-hd\System\MakeStepIcon.png
+         ..\..\Resources\Picts-hd\System\MakeStepIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\MakeStepIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\NextLevelIcon.png
+         ..\..\Resources\Picts-hd\System\NextLevelIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\NextLevelIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\PasteIcon.png
+         ..\..\Resources\Picts-hd\System\PasteIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\PasteIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\PauseIcon.png
+         ..\..\Resources\Picts-hd\System\PauseIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\PauseIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\PlayIcon.png
+         ..\..\Resources\Picts-hd\System\PrevLevelIcon.png
+         ..\..\Resources\Picts-hd\System\PrevLevelIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\PrevLevelIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\ResetIcon.png
+         ..\..\Resources\Picts-hd\System\ResetIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\ResetIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\ShowIcon.png
+         ..\..\Resources\Picts-hd\System\ShowIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\ShowIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\sliderProgress.png
+         ..\..\Resources\Picts-hd\System\sliderThumb.png
+         ..\..\Resources\Picts-hd\System\sliderTrack.png
+         ..\..\Resources\Picts-hd\System\SoundOffIcon.png
+         ..\..\Resources\Picts-hd\System\SoundOffIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\SoundOffIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\SoundOnIcon.png
+         ..\..\Resources\Picts-hd\System\SoundOnIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\SoundOnIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\speedBar.png
+         ..\..\Resources\Picts-hd\System\speedBar_Empty.png
+         ..\..\Resources\Picts-hd\System\StartIcon.png
+         ..\..\Resources\Picts-hd\System\StartIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\StartIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\StopIcon.png
+         ..\..\Resources\Picts-hd\System\StopIcon_Disabled.png
+         ..\..\Resources\Picts-hd\System\StopIcon_Selected.png
+         ..\..\Resources\Picts-hd\System\Unlock.png
+         ..\..\Resources\Sounds\background.wav
+         ..\..\Resources\Sounds\loose_sound.wav
+         ..\..\Resources\Sounds\win_sound.wav
+         Скопировано файлов: 376.
+     1>Построение проекта "D:\Work\VS_Projects\pictomir\Piktomir\platform\Windows\pictomir-cocos2d-x.win32.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.31

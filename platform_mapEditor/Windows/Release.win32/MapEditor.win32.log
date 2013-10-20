@@ -1,0 +1,65 @@
+﻿Построение начато 21.08.2013 11:00:09.
+     1>Проект "D:\Work\VS_Projects\pictomir\Piktomir\platform_mapEditor\Windows\MapEditor.win32.vcxproj" в узле 2 (целевые объекты Build).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Work\VS_Projects\pictomir\Piktomir\platform_mapEditor\Windows\..\..\Release.win32\MapEditor.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Work\VS_Projects\pictomir\Piktomir\platform_mapEditor\Windows\..\..\Release.win32\ Release.win32\libcocos2d.lib opengl32.lib Release.win32\glew32.lib Release.win32\libxml2.lib Release.win32\libzlib.lib Release.win32\libCocosDenshion.lib Release.win32\libExtensions.lib Release.win32\pthreadVCE2.lib Release.win32\libwebp.lib Release.win32\libcurl_imp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\Work\VS_Projects\pictomir\Piktomir\platform_mapEditor\Windows\..\..\Release.win32\MapEditor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Work\VS_Projects\pictomir\Piktomir\platform_mapEditor\Windows\..\..\Release.win32\MapEditor.lib" /MACHINE:X86 /SAFESEH Release.win32\MapEditor.res
+         Release.win32\AppDelegate.obj
+         Release.win32\CCLocalizedString.obj
+         Release.win32\ChangeLevelMenu.obj
+         Release.win32\ControlLayer4.obj
+         Release.win32\MapControl.obj
+         Release.win32\MapEditorGameLayer.obj
+         Release.win32\mapEditorsMenu.obj
+         Release.win32\OptionsLayer.obj
+         Release.win32\PMCombobox.obj
+         Release.win32\Robot4Edit.obj
+         Release.win32\RobotPrefs.obj
+         Release.win32\FTPuser.obj
+         Release.win32\FTPutils.obj
+         Release.win32\GameLayer.obj
+         Release.win32\GameParams.obj
+         Release.win32\Hint.obj
+         Release.win32\HintLayer.obj
+         Release.win32\Hints.obj
+         Release.win32\MainMenuLayer.obj
+         Release.win32\Map.obj
+         Release.win32\Map4.obj
+         Release.win32\MapContainer.obj
+         Release.win32\MapElement.obj
+         Release.win32\MethodLayer.obj
+         Release.win32\MethodScrollLayer.obj
+         Release.win32\MethodStackLayer.obj
+         Release.win32\NetEngine.obj
+         Release.win32\Oven4.obj
+         Release.win32\PauseLayer.obj
+         Release.win32\PMMapPreview.obj
+         Release.win32\PMTextureCache.obj
+         Release.win32\ProgramControlLayer.obj
+         Release.win32\ProgramLayer.obj
+         Release.win32\Robot4.obj
+         Release.win32\RobotLooseLayer.obj
+         Release.win32\RobotManager.obj
+         Release.win32\RobotMethod.obj
+         Release.win32\RobotWinLayer.obj
+         Release.win32\ScrollLayer.obj
+         Release.win32\SelectButton.obj
+         Release.win32\SelectMapMenuLayer.obj
+         Release.win32\SelectMenuLayer.obj
+         Release.win32\SettingsMenuLayer.obj
+         Release.win32\SpeedBarLayer.obj
+         Release.win32\Task.obj
+         Release.win32\TransportRobot4.obj
+         Release.win32\UniversalWorld.obj
+         Release.win32\utils.obj
+         Release.win32\World4.obj
+         Release.win32\XmlWorldReader.obj
+         Release.win32\XmlWorldSaver.obj
+         Release.win32\main.obj
+         libExtensions.lib(CCScale9Sprite.obj) : найден .netmodule MSIL или модуль, откомпилированный с параметром /GL; перезапускается компоновка с параметром /LTCG; добавьте /LTCG в командную строку компоновки для повышения производительности компоновщика
+         ╤ючфрэшх ъюфр
+         ╤ючфрэшх ъюфр чртхЁ°хэю
+         MapEditor.win32.vcxproj -> D:\Work\VS_Projects\pictomir\Piktomir\platform_mapEditor\Windows\..\..\Release.win32\MapEditor.exe
+     1>Построение проекта "D:\Work\VS_Projects\pictomir\Piktomir\platform_mapEditor\Windows\MapEditor.win32.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.99
