@@ -1,7 +1,33 @@
 #!/usr/bin/make -f
+# -*- makefile -*-
+
+export DH_VERBOSE=1
 
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/makefile.mk
+include /usr/share/cdbs/1/rules/patchsys-quilt.mk
 
+DEB_DH_STRIP_ARGS="--dbg-package=piktomir-dbg"
 
-# Add here any variable or target overrides you need.
+# where sources are
+DEB_SRCDIR = $(CURDIR)/platform/Linux
+
+# in which directory to build
+DEB_BUILDDIR = $(DEB_SRCDIR)/bin
+
+#export CXXFLAGS="$(CXXFLAGS) -g"
+#export CFLAGS="$(CFLAGS) -g"
+
+#%:
+#	dh $@ --with quilt
+#override_dh_auto_configure:
+
+#override_dh_auto_clean:
+
+#override_dh_installman:
+
+#override_dh_install:
+
+clean::
+	echo "running clean"
+
